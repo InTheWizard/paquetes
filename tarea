@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<stdlib.h>
+ int main ()
+ {
+
+    int sem, pckdia=0, i=1, spcks=0;
+
+    float prom;
+
+    printf("\n Promgrama que promedia entrega de paquetes\n");
+
+    printf("\n\t Introduce los dias que se laboraron\t");
+    scanf("%d", &sem);
+
+
+
+    while(i<=sem)
+    {
+        printf("\n\t Introduce cuantos paquetes se entregaron en el dia %d\n\t", i);
+        scanf("%d", &pckdia);
+        spcks+=pckdia;
+        i++;
+
+    }
+
+    prom= (float)spcks/sem;
+
+    printf("\n\t EL total de paquetes entregados en la semana son %d\n\t", spcks);
+    printf("\n\t EL promedio total de paquetes entregados por dia son %0.2f\n\t", prom);
+    scanf("%f", &prom);
+
+    system("PASUE");
+    return 0;
+
+
+
+
+
+
+
+ }
