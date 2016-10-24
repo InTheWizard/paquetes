@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+
+    int repite, num, sum =0, total_num=0;
+    float divis=9;
+
+
+        do
+        {
+            do
+            {
+                printf("\n Programa para suma de numeros divisibles entre nueve\n");
+
+                printf("\n\t Introduce un numero divislible entre 9\t");
+                scanf("%d", &num);
+
+            }
+
+            while(num %9 || num ==0);
+            {
+              printf("\n EL numero no es divisible entre 9\n Intententa de nuevo\n\t");
+              scanf("%d", &num);
+
+              sum+=num;
+              total_num++;
+
+
+
+            }
+
+
+        system("cls");
+        fflush(stdin);
+        printf("\n\t Deseas repetir?\n\t 1 para si\n");
+        scanf("%d", &repite);
+
+
+
+        } while(repite==1);
+
+
+
+
+
+
+
+
+
+system("PAUSE");
+return 0;
+
+}
