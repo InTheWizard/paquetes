@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int cpu=0, temp_pro, i=1, tiempo, sum;
+    float prom;
+
+    printf("\n Programa Temperatura CPU");
+
+    printf("\n Cuantos CPU´S usraras?\n\t");
+    scanf("%d", &cpu);
+
+    while(i<=cpu)
+    {
+        printf("\n\t Introduce la temperatura del primer porcesador %d\n", i);
+        scanf("%d", &temp_pro);
+
+        while(tiempo<0)
+        {
+           if(tiempo == 0)
+           {
+               sum+=temp_pro;
+               printf("\n\t La suma del la temperatura de los procesadores es: %d", sum);
+
+
+           }
+        }
+
+        temp_pro= temp_pro+ tiempo;
+
+        i++;
+
+
+
+    }
+    prom= (float)temp_pro/i;
+    printf("\n\t El promedio de las temperaturas es: %.2f\t", prom);
+
+
+
+
+
+system("PAUSE");
+return 0;
+}
