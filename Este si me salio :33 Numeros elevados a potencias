@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+    int p, num;
+
+    printf("\n Programa potencia de un numero\n");
+
+    printf("\n\t Introduzca un numero que quiera que se elve al cuadrado ");
+    scanf("%d", &num);
+
+    for(p=1; p<=1; p++)
+        {
+            printf("\n EL cuadrado de numero es: %d\t\n",num*num);
+            printf("\n\n\n");
+        }
+
+    printf("\n Introduzca otro numero pero ahora se elevara el cubo\n");
+
+    printf("\n\t Introduzca un numero que quiera que se elve\t");
+    scanf("%d", &num);
+
+
+    for(p=1; p<=1; p++)
+        {
+            printf("\n EL cubo de numero es: %d\t\n",num*num*num);
+            printf("\n\n\n");
+        }
+
+    printf("\n Introduzca otro numero pero ahora se elevara a la cuarta\n");
+
+    printf("\n\t Introduzca un numero que quiera que se elve ");
+    scanf("%d", &num);
+
+
+    for(p=1; p<=1; p++)
+        {
+            printf("\n EL numero elevado a la cuarta es: %d\t\n",num*num*num*num);
+            printf("\n\n\n");
+        }
+
+
+
+
+system("PAUSE");
+return 0;
+}
