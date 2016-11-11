@@ -1,0 +1,23 @@
+if(calif>=0 && calif<=5)
+        {
+        printf("\n Ested esta reprovado\t");
+        }
+
+        else
+        {
+            if(calif>=6 && calif<=8)
+            {
+                printf("\n Usted panso\t");
+            }
+
+            else
+            {
+                if(calif>=9 && calif<=10)
+                {
+                    printf("\n Usted Paso Excelente\t");
+                }
+                else
+                {
+                    printf("\n calificacion no valida\t");
+                }
+            }
